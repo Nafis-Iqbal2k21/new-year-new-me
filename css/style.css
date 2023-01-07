@@ -123,7 +123,7 @@
     align-items: center;
 }
 
-.my-success-cards .my-success-card {  
+.my-success-cards .my-success-card {
     margin: 0 10px;
     border: 1px solid #fff;
     padding: 30px 20px;
@@ -132,12 +132,12 @@
     box-shadow: 5px 5px 20px dimgrey;
 }
 
-.my-success-cards .my-success-card:hover{
+.my-success-cards .my-success-card:hover {
     border: 1px solid #F15B22;
     cursor: pointer;
 }
 
-.my-success-cards .my-success-card img{
+.my-success-cards .my-success-card img {
     width: 100%;
     height: 150px;
 }
@@ -154,6 +154,8 @@
     color: #737272;
     margin-bottom: 5px;
 }
+
+/* my-success section end */
 
 /* my-plan section start */
 .my-plans .my-plans-items {
