@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common css class start */
+.container {
+    margin: 130px 230px 0 230px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border: 0;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: #fff;
+    border: 0;
+    color: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+/* common css class end */
+
+/* banner section start */
+.banner {
+    background: url(../images/banner.png) no-repeat center center/cover;
+    padding: 0 230px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.banner .banner-text {
+    width: 500px;
+    text-align: right;
+}
+
+.banner .banner-text h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+
+}
+
+/* banner section end */
+
+/* my-failure section start */
+.my-failure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-failure .my-failure-image,
+.my-failure-text {
+    width: 45%;
+}
+
+.my-failure .my-failure-image img {
+    width: 100%;
+}
+
+.my-failure .my-failure-list {
+    list-style-image: url(../images/icons/check.png);
+    padding-left: 25px;
+}
+
+.my-failure .my-failure-list li {
+    color: #444343;
+
+}
+
+/* my-failure section end */
+
+/* my-success section start */
+.my-success-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-success-cards .my-success-card {  
+    margin: 0 10px;
+    border: 1px solid #fff;
+    padding: 30px 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px dimgrey;
+}
+
+.my-success-cards .my-success-card:hover{
+    border: 1px solid #F15B22;
+    cursor: pointer;
+}
+
+.my-success-cards .my-success-card img{
+    width: 100%;
+    height: 150px;
+}
+
+.my-success-cards .my-success-card .card-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.my-success-cards .my-success-card .card-sub-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #737272;
+    margin-bottom: 5px;
+}
+
+/* my-plan section start */
+.my-plans .my-plans-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-plans .my-plans-items .my-plans-item {
+    width: 30%;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.my-plans .my-plans-items .my-plans-item .item-title {
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+    color: #151414;
+}
+
+.my-plans .my-plans-items .my-plans-item .item-sub-title {
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+}
+
+/* my-plan section end */
+
+/* contact section start */
+.contact {
+    background: url(../images/watch.png) no-repeat, linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-position: 100% 100%;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    height: auto;
+}
+
+.contact .contact-text {
+    text-align: left;
+    padding: 20px 60px;
+}
+
+/* contact section end */
+
+/* footer section start */
+.footer {
+    margin-top: 130px;
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 200px;
+}
+
+.footer .future,
+.subscribe {
+    width: 50%;
+}
+
+.footer .subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer .subscribe .form {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer .subscribe .form .input-field {
+    width: 100%;
+    padding: 20px;
+    font-style: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* footer section end */
