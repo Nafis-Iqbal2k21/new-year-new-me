@@ -1,7 +1,7 @@
 
 # New Year New Me
 
-### Welcome to my New Year New me project.
+### Welcome to my New Year New Me project.
 It is a beginner friendly non-responsive website project using HTML and CSS. It helps on my web development learning journey. I created this project after learning HTML, CSS, Git and GitHub.
 
 
